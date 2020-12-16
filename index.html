@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="default.css">
+  <link id="theme-style" rel="stylesheet" type="text/css" href="">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
@@ -13,42 +14,204 @@
 <body>
 
   <section class="s1">
-    <div class="main-container">
-      <div class="greeting-wrapper">
-      <h1>Hi, I'm Sharon Watkins</h1>
-      </div>
-    </div>
-  </section>
+		<div class="main-container">
+			<div class="greeting-wrapper">
+				<h1>Hi, I'm Sharon Watkins</h1>
+			</div>
 
-  <div class="intro-wrapper">
-    <div class="nav-wrapper">
-      Nav
-    </div>
-    <div class="left-column">
-      Left Column
-    </div>
-    <div class="right-column">
-      Right Column
-    </div>
-  </div>
+
+			<div class="intro-wrapper">
+				<div class="nav-wrapper">
+
+					<!-- Link around dots-wrapper added after tutorial video -->
+					<a href="index.html">
+						<div class="dots-wrapper">
+							<div id="dot-1" class="browser-dot"></div>
+							<div id="dot-2" class="browser-dot"></div>
+							<div id="dot-3" class="browser-dot"></div>
+						</div>
+					</a>
+					
+
+					<ul id="navigation">
+						<li><a href="index.html#contact">Contact</a></li>
+
+					</ul>
+				</div>
+
+				<div class="left-column">
+					<img id="profile_pic" src="images/slw.jpg">
+					<h5 style="text-align: center;line-height: 0;">Personalize Theme</h5>
+
+					<div id="theme-options-wrapper">
+						<div data-mode="light" id="light-mode" class="theme-dot"></div>
+						<div data-mode="blue" id="blue-mode" class="theme-dot"></div>
+						<div data-mode="green" id="green-mode" class="theme-dot"></div>
+						<div data-mode="purple" id="purple-mode" class="theme-dot"></div>
+					</div>
+
+					<p id="settings-note">*Theme settings will be saved for<br>your next visit</p>
+				</div>
+
+				<div class="right-column">
+
+					<div id="preview-shadow">
+						<div id="preview">
+							<div id="corner-tl" class="corner"></div>
+							<div id="corner-tr" class="corner"></div>
+							<h3>What I Do</h3>
+							<p>I am a Fullstack Software Engineer who is excited about building and creating.</p>
+							<div id="corner-br" class="corner"></div>
+							<div id="corner-bl" class="corner"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+  
 
   <section class="s2">
-    <div class="main-container">
-      About
-    </div>
-  </section>
+		<div class="main-container">
+
+			<div class="about-wrapper">
+				<div class="about-me">
+					<h4>More About Me</h4>
+
+					<p>Experienced in Ruby on Rails and JavaScript based programming 
+            and a background in healthcare and media. Possesses strong 
+            skills in organization, mediation and project management that 
+            help companies maintain and build existing projects. Mother who 
+            is successfully managing and educating 4 children at home 
+            during the pandemic.</p>
+
+					
+
+
+					<hr>
+
+					<h4>TOP EXPERTISE</h4>
+
+					<p>Fullstack developer with primary focus on Rails + React: <a target="_blank" href="CV.pdf">Download Resume</a></p>
+
+					<div id="skills">
+						<ul>
+							<li>Ruby</li>
+							<li>Rails</li>
+							<li>JavaScript</li>
+							<li>React</li>
+							<li>Redux</li>
+						</ul>
+
+						<ul>
+							<li>SQL</li>
+							<li>Node</li>
+							<li>Firebase</li>
+							<li>Sinatra</li>
+							<li>HTML/CSS</li>
+						</ul>
+
+					</div>
+
+				</div>
+
+				
+				<div class="social-links">
+          <a target="_blank" href="https://github.com/sedx876">
+            <img id="social_img" src="images/Octocat.png">
+            <img id="social_img" src="images/gh2.png">
+          </a>
+					<h3>Find me on Twitter & LinkedIn</h3>
+
+					<a target="_blank" href="https://www.linkedin.com/in/sharonlwatkinsdev/">LinkedIn: Sharon Watkins</a>
+					<br>
+					<a target="_blank" href="https://twitter.com/sedx876">Twitter: @sedx876</a>
+				</div>
+			</div>
+
+		</div>
+	</section>
 
   <section class="s1">
-    <div class="main-container">
-      Portfolio
-    </div>
-  </section>
+		<div class="main-container">
+			<h3 style="text-align: center;">Some of my past projects</h3>
+
+			<div class="post-wrapper">
+
+				<div>
+					<div class="post">
+						<img class="thumbnail" src="images/d3.png">
+						<div class="post-preview">
+							<h6 class="post-title">D3 Player Companion</h6>
+							<p class="post-intro">To help players keep track of their character gear in game.</p>
+							<a href="d3.html">Read More</a>
+						</div>
+					</div>
+				</div>
+
+				<div>
+					<div class="post">
+						<img class="thumbnail" src="images/meetrreadr.png">
+						<div class="post-preview">
+							<h6 class="post-title">MeetrReadr</h6>
+							<p class="post-intro">An app where readers can communicate through their love of books.</p>
+							<a href="meetrreadr.html">Read More</a>
+						</div>
+					</div>
+				</div>
+
+				<div>
+					<div class="post">
+						<img class="thumbnail" src="images/membership site.jpg">
+						<div class="post-preview">
+							<h6 class="post-title">Strain Domain</h6>
+							<p class="post-intro">Modulized guide for online courses with step by  step intructions</p>
+							<a href="post.html">Read More</a>
+						</div>
+					</div>
+        </div>
+        
+        <div>
+					<div class="post">
+						<img class="thumbnail" src="images/membership site.jpg">
+						<div class="post-preview">
+							<h6 class="post-title">InstaClone</h6>
+							<p class="post-intro">Modulized guide for online courses with step by  step intructions</p>
+							<a href="post.html">Read More</a>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
 
   <section class="s2">
-    <div class="main-container">
-      Contact
-    </div>
-  </section>
+		<div class="main-container">
+			<a href=""></a>
+			<h3 style="text-align: center;">Get In Touch</h3>
 
+			<form id="contact-form">
+				<a name="contact"></a>
+
+				<label>Name</label>
+				<input class="input-field" type="text" name="name">
+
+				<label>Subject</label>
+				<input class="input-field" type="text" name="subject">
+
+				<label>Email</label>
+				<input class="input-field" type="text" name="email">
+
+				<label>Message</label>
+				<textarea class="input-field" name="message"></textarea>
+
+				<input id="submit-btn" type="submit" value="Send">
+			</form>
+		</div>
+	</section> 
+  <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
